@@ -1,10 +1,8 @@
 public class ChartGenerator {
     public static void main(String[] args) {
         System.out.println("x\ty");
-        
         for (int x = -12; x <= 16; x++) {
             double y;
-            
             if (x == 12) {
                 y = 189728e6;
             } else if (x == -11) {
@@ -60,7 +58,6 @@ public class ChartGenerator {
             } else {
                 y = 0;
             }
-
             System.out.printf("%d\t%.6g\n", x, y);
         }
     }
