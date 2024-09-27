@@ -1,0 +1,1 @@
+package Q1;public class Prog52a{public static void main( String[ ] args ){int l=143;int w=82;int a=l*w;int p=2*w+2*l;System.out.println( "Area = "+a);System.out.println( "Perimeter = "+p);}}
