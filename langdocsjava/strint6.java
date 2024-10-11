@@ -5,7 +5,7 @@ public class strint6 {
         Scanner fred = new Scanner(System.in);
         
         Scanner.out.print("Enter a string: ");
-        String text = wow.nextLinr().toLowerCase().trim();
+        String text = wow.nextLine().toLowerCase().trim();
 
         int Acount = 0;
         int Bcount = 0;
@@ -36,6 +36,6 @@ public class strint6 {
 
         for (int lcv = 0; lcv < text.length(); lcv++) {
             char cur = text.charAt(lcv); 
-        }
+        }; 
     }
 }
