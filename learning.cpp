@@ -9,6 +9,7 @@ int main() {
 
     int b, c;
     double a;
+    string d = "Hello";
 
     printf("Enter hypotenuse: "); scanf("%d", &c);
     printf("Enter opposite: "); scanf("%d", &b);
@@ -16,4 +17,5 @@ int main() {
     a = sqrt(pow(c, 2) - pow(b, 2));
 
     printf("The adjacent is " + a + ".");
+    printf(d)
 }

@@ -3,7 +3,7 @@
 
 using namespace std;
 
-int eulerTotient(int n) {
+int eulerTotient(int n) { 
     int result = n; 
 
     for (int p = 2; p * p <= n; ++p) {
