@@ -4,7 +4,33 @@
     // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
     "version": "0.2.0",
     "configurations": [
-        
-
+        {
+            "type": "java",
+            "name": "strint6array",
+            "request": "launch",
+            "mainClass": "strint6array",
+            "projectName": "aprepo_c05acc83"
+        },
+        {
+            "type": "java",
+            "name": "MSOE2016num2",
+            "request": "launch",
+            "mainClass": "MSOE2016num2",
+            "projectName": "aprepo_c05acc83"
+        },
+        {
+            "type": "java",
+            "name": "msoe2016num1",
+            "request": "launch",
+            "mainClass": "msoe2016num1",
+            "projectName": "aprepo_c05acc83"
+        },
+        {
+            "type": "java",
+            "name": "prog435g",
+            "request": "launch",
+            "mainClass": "prog435g",
+            "projectName": "aprepo_c05acc83"
+        }
     ]
 }

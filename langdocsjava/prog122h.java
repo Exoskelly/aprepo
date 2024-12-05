@@ -1,4 +1,5 @@
-public class NumberTable {
+public class prog122h
+ {
     public static void main(String[] args) {
         System.out.printf("%-8s %-8s %-15s %-8s %-15s\n", "Number", "Square", "Square Root", "Cube", "4th Root");
         for (int number = 1; number <= 20; number++) {
