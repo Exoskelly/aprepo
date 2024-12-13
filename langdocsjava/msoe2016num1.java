@@ -20,5 +20,5 @@ public class msoe2016num1 {
             }
         }
         return true;
-    }
+    } 
 }

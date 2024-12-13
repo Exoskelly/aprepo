@@ -2,7 +2,7 @@ import java.util.*;
 
 public class Strint7 {
     public static void main(String[] args) {
-        Scanner cool = new Scaner(System.in);
+        Scanner cool = new Scanner(System.in);
 
         System.out.print("Enter a string: ");
         String mytext = cool.nextLine().toLowerCase().trim();
