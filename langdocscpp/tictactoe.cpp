@@ -29,12 +29,15 @@ bool win(char board[3][3], char player)
         return true;
     return false;
 }
-int main()
 
-    char board[3][3] = { { ' ', ' ', ' ' }, { ' ', ' ', ' ' }, { ' ', ' ', ' ' } };
+int main()
+{
+    char board[3][3] = { { ' ', ' ', ' ' },
+                         { ' ', ' ', ' ' },
+                         { ' ', ' ', ' ' } };
     char player = 'X';
     int row, col;
-    int turn;
+    int turn; 
     cout << "Welcome to Tic-Tac-Toe!\n";
     for (turn = 0; turn < 9; turn++) {
         draw(board);
@@ -63,3 +66,5 @@ int main()
         && !win(board, 'O')) {
         cout << "It's a draw!\n";
     }
+    return 0;
+}
