@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "prog470b",
+            "request": "launch",
+            "mainClass": "prog470b",
+            "projectName": "aprepo_c05acc83"
+        },
+        {
+            "type": "java",
             "name": "strint6array",
             "request": "launch",
             "mainClass": "strint6array",
