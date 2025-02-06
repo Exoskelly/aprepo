@@ -131,7 +131,7 @@ int main() {
         cin >> input;
 
         if (dungeon[playerY][playerX] == EXIT) {
-            cout << "You've reached the exit! You win!" << endl;
+            cout << "You've reached the exit! You win! Your Score was" + score << endl;
             gameRunning = false;
             break;
         }

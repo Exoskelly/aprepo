@@ -6,6 +6,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "prog465h",
+            "request": "launch",
+            "mainClass": "prog465h",
+            "projectName": "aprepo_c05acc83"
+        },
+        {
+            "type": "java",
+            "name": "prog435a",
+            "request": "launch",
+            "mainClass": "prog435a",
+            "projectName": "aprepo_c05acc83"
+        },
+        {
+            "type": "java",
+            "name": "prog701g",
+            "request": "launch",
+            "mainClass": "prog701g.prog701g",
+            "projectName": "aprepo_c05acc83"
+        },
+        {
+            "type": "java",
             "name": "Prog505a",
             "request": "launch",
             "mainClass": "Prog505a",
