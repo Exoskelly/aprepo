@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "prog492h",
+            "request": "launch",
+            "mainClass": "prog492h",
+            "projectName": "aprepo_c05acc83"
+        },
+        {
+            "type": "java",
             "name": "abclab",
             "request": "launch",
             "mainClass": "abclab.abclab",

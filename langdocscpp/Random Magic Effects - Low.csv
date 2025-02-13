@@ -1,0 +1,101 @@
+Roll,Name,Effect
+1,Coconut,"A single coconut falls from the sky onto the caster's head, automatically knocking them unconscious and dealing 1 bludgeoning damage."
+2,Stink,"For 1 week, the target emits a foul odor at all times."
+3,Insomnia,Target must pass a DC 12 WIS save or become unable to sleep for 1D4 days.
+4,Pastry,A small pastry appears in the target's mouth.
+5,Dark Whispers,"For the next 1D8+3 days, the nearest target occasionally hears a sinister voice whispering in their ear, playing off their fears and insecurities."
+6,Cry,The target begins sobbing uncontrollably and misses their next turn.
+7,CHEEEEEEESE FACTORY,"All nonmagical inanimate solids within a 1D100-ft radius of your target are instantly transmuted into cheese. Before this occurs, however, a thunderous cry can be heard from the heavens shouting ""CHEEEEEEESE FACTORY!"""
+8,Stop Hitting Yourself,"The target loses control of their non-dominant hand, which begins to slap them repeatedly and generally be a nuisance. This effect lasts 1D10+10 hours."
+9,Thirsty,Caster become very thirsty and will loudly complain about this.
+10,Animal Impression,Caster becomes quite skilled at mimicking animal noises.
+11,Glow,Target emits a green glow from their entire body for the next 1D20 hours. This causes disadvantage on stealth.
+12,Honey,"A huge explosion coats all creatures and surfaces within 20 ft of the caster in a layer of sweet, sticky honey. This can damage delicate materials such as books, potions or fine clothes."
+13,Fangs,The caster's teeth become long and pointed.
+14,Six Fingers,Caster now has six fingers on each hand.
+15,Short Fall,All creatures and loose objects within 80 ft are teleported 20 ft into the air.
+16,Transparent Skin,Your target's skin becomes completely transparent for 1D10 hours. The affected creature has disadvantage on any social rolls and takes 1 radiant damage for every 5 minutes spent in direct sunlight.
+17,Rain,"It begins to rain in the surrounding area, and will do so for the next 1D6 hours."
+18,Pie Proficiency,The target is now incredibly skilled at baking pies.
+19,"Love, True Love","The nearest monster with at least 6 INT immediately falls in love with the caster, and will attempt to move towards their location. Each week, the creature may make a DC 10 CHA save to end the effect."
+20,Soundtrack,"For the next 24 hours, appropriate music magically accompanies your every action."
+21,Bad Soundtrack,"For the next 24 hours, inappropriate music magically accompanies your every action."
+22,Pied Piper,All rodents within a 100 ft radius are immediately propelled towards your target at 10 ft/second for the next minute
+23,Paranoia,Caster becomes incredibly paranoid for 15 minutes.
+24,Bald,All of the target's hair falls out.
+25,Grease,The spell Grease is cast to cover a 45x45 ft square of ground centered on the caster.
+26,Minor Heal,Target heals 1D8+proficiency bonus HP
+27,Minor Hurt,Target takes 1D8+proficiency bonus force damage
+28,Minor Wealth,A gold bar worth 20 GP appears in the target's inventory.
+29,Nosebleed,The caster suffers a nosebleed for 1 piercing damage.
+30,Herbivore,"The target must pass a DC 11 WIS save or begin to uncontrollably eat any plant life they see. This effect lasts for 2 minutes, and the target may repeat their save at the end of each of their turns."
+31,Chicken Dance,Target must pass a DC 16 WIS save or spend their next turn flapping their arms and squawking like a chicken.
+32,Narration,"An ethereal humanoid figure wearing comfortable clothes appears behind your target, and narrates their every action for 1D6 hours. At the end of this time, they leave behind a written record of everything that happened before disappearing. This causes disadvantage on stealth rolls for the target."
+33,Common Cold,Target becomes infected with the common cold.
+34,Extinguish,All fires within 20 ft of the caster are immediately snuffed out.
+35,Sand,"All available space on the target's person (backpacks, pockets) is filled with sand."
+36,Snitch,"For 6 days, whenever the caster tells a lie a small mouth will appear somewhere on their body and scream ""(S)He's lying!"" before disappearing."
+37,Queen Of The Hive,"The nearest insect's INT is set to 20, and its alignment becomes lawful neutral. It can now communicate in all languages via telepathy, and can cast the spells Levitate and Detect Thoughts at will."
+38,Narcolepsy,"The caster must pass a DC 11 WIS save or immediately fall asleep, and remain asleep until either 1D8 hours have passed or an action is used to awaken them."
+39,Lightning,The target is immediately struck by a lightning bolt for 2D10 lightning damage.
+40,Slap,"A disembodied hand appears in front of the target, and loudly slaps them in the face. This counts as a melee weapon attack with +4 to hit, and deals 1D4 bludgeoning damage. On a crit, this damage is increased to 8D6."
+41,Timber,The nearest tree falls over.
+42,Penny,A single copper piece appears in the target's inventory.
+43,Moral Quandary,A tiny angel and devil appear on a random target's shoulders and begin to argue. They will not disappear until the target follows a course of action suggested by either of them.
+44,Hook Horror,Summon a single Hook Horror 40ft in front of the caster.
+45,Sticky Fingers,Caster's hands become extremely sticky for 2D12 hours.
+46,Stomach Bug,"The caster immediately vomits, and has disadvantage on CON saves until they finish a long rest. No effect if the caster is immune to disease."
+47,Fragility,"The caster's HP is set to 1 until the start of their next turn, at which point they will regain all hit points lost to this effect."
+48,Water Into Wine,Target gains the ability to turn water into wine.
+49,Wine Into Water,Target gains the ability to turn wine into water.
+50,Chestburster,"The nearest hostile target must make a DC 13 CON save or have a Slaad Tadpole erupt from their chest, dealing 3D10 piercing damage."
+51,Turnip Taste,"For the next week, everything the target eats will taste like turnips to them."
+52,Minor Relocation,The caster is teleported 100 ft in a random direction.
+53,Traffic Jam,All axles within 1 mile of the caster immediately snap.
+54,Exact Change,"All money in the caster's inventory is converted into the equivalent amount of copper pieces. If at least 200 copper pieces are gained via this effect, the caster has disadvantage on stealth rolls until they can change the coins."
+55,Toll,"A pair of glowing handcuffs appear on the nearest friendly target's wrists, alongside a small floating box with a coin slot in the top. The handcuffs cannot be removed or broken until coins totalling a value of at least 5 GP is inserted into the box, at which time they disappear."
+56,Backflip,"The target attempts to do a backflip, forcing a DC 11 acrobatics check. If they fail, they are knocked prone."
+57,Liar,A random target within 50 ft that the caster can see becomes incapable of telling the truth for the next 3 days.
+58,Liver,"The size and potency of the target's liver, if it has one, is doubled with no ill effects."
+59,Food Hallucination,"Roll 1D4, if 1 then this effect targets the original target; if 2 the caster, if 3 then a random creature within 70 ft, if 4 then all creatures within 70 ft. Target begins to hallucinate that they have been put into a sandwich and are about to be eaten by a giant. At the beginning of their turn, a DC 14 WIS save may be made to end this effect."
+60,Fire Hallucination,"Roll 1D4, if 1 then this effect targets the original target; if 2 the caster, if 3 then a random creature within 70 ft, if 4 then all creatures within 70 ft. Target begins to hallucinate that they are on fire. At the beginning of their turn, a DC 14 WIS save may be made to end this effect."
+61,Bear Hallucination,"Roll 1D4, if 1 then this effect targets the original target; if 2 the caster, if 3 then a random creature within 70 ft, if 4 then all creatures within 70 ft. Target begins to hallucinate that a huge amount of angry bears are approaching them. At the beginning of their turn, a DC 14 WIS save may be made to end this effect."
+62,"Hey, Listen!","A Pixie appears behind the target, and will speak loudly into their ear until their next long rest. If the Pixie is killed, the target is cursed and has disadvantage on attack rolls for the next week."
+63,Insult To Injury,Target must spend its next action insulting the creature missing the most HP within 150 ft of it. At the end of its turn it must pass a CHA save or this effect repeats on its next turn.
+64,Restore Spell Slots,Regain all expended spell slots at 2nd or lower level.
+65,Blindfold,"A Blindfold appears on the target's face, covering up to two eyes and potentially blinding the target until they spend a bonus action to remove it."
+66,Bathrobe,Target's clothes are replaced with a towel wrapped around their waist. Their normal clothes will reappear on their body after 1 hour.
+67,Mud Ball,A small ball of mud flies forwards 40 ft from the casters hands. It has no special properties and deals no damage.
+68,Wooden Utensils,Nearest target can now only use wooden eating utensils.
+69,Colorblind,Target becomes colorblind for 1D12 days.
+70,Stumble,All targets on the ground within 50 ft must pass a DC 12 DEX save or promptly fall over and be knocked prone.
+71,Hiccups,The two nearest friendly targets gain a severe case of the hiccups that lasts until their next short rest.
+72,Banana Swap,"Whatever the target is holding in their hands is suddenly realized to, in fact, have been a banana the entire time."
+73,Rhyme,The caster must speak in rhyme until their next long rest.
+74,Nail Polish,Each of the target's fingernails are now painted a different color.
+75,Wrong Feet,The caster's shoes are now on the wrong feet.
+76,Antler,Nearest friendly creature grows a single antler.
+77,Bubbles,"A stream of soap bubbles shoots out of either the caster's ears, fingers or mouth."
+78,Pebble In Shoe,"For 1D4+1 days, the target has the sensation of having a pebble in their shoe."
+79,Spin,Target rotates 360 degrees in place once before stopping.
+80,Handy Helpers,"Select a friendly humanoid target, both of their hands immediately fall off at the wrists. This does not harm the target at all, and a new pair of hands identical to the old ones grow almost immediately. Both of the disembodied hands become animated and sentient, statted as Crawling Claws but monstrosity-type instead of undead and without attacks. They also have 10 HP each, and 7 INT. The hands will obey their original owner, and can be issued commands telepathically if they are within 1 mile. If they are further away than a mile and have no orders, they will attempt to move towards the last place they saw their master. If they still cannot find them, they will attempt to find clues as to their whereabouts before seeking them out anew."
+81,Replace Teeth,Target's teeth fall out and quickly grow back over the course of 10 seconds.
+82,Botch,The next dice the caster rolls is rolled with disadvantage.
+83,Daredevil,Caster becomes unable to back down from any presented challenge for 1D4 days.
+84,Multilingual,Target instantly learns a single random language.
+85,Foreign Language,Target can only speak in a random language for the next day.
+86,Embarrassment,The target suddenly remembers the most embarrassing moment of their life.
+87,Astral Frog,"From now on, the only dreams the target can have are those of a frog speaking in a deep voice trying to convince them to join it for a fine dinner among the stars. If the target agrees, they are teleported to the celestial plane where the frog treats them to roast pheasant, cranberry sauce, garlic bread and red wine. Once the meal is finished, the target will reappear in their bed bearing a small portrait of the frog signed ""Thinking of you"". After this, the dream will no longer occur."
+88,Water In Nose,Caster's sinuses are flooded with water.
+89,Braid,Target's hair begins to braid itself. It will repeat this if the braid is undone.
+90,Pink,Target turns bright pink. This effect spreads to anyone the target kisses.
+91,Shuffle Turns,Initiative is rerolled.
+92,Frog Croak,"For the next 1D8 minutes, target can only speak by croaking like a frog."
+93,Chicken Rage,Target gains an overwhelming hatred for chickens and poultry products.
+94,Chameleon Tongue,The caster now changes color to match whatever they are eating. This effect can be removed with the spell Dispel Curse.
+95,Fur,"The target grows short, coarse hair all over their body."
+96,Minute Resistance,Caster gains 1 temporary hit point.
+97,Strange Tattoo,Tattoos depicting a nude fat man beheading a dragon with a spoon appear all over the caster's torso.
+98,Meal,A table with a high-quality meal prepared on it appears in front of the caster.
+99,Heal Allies,All friendly targets within 80 ft regain 1D4+1 HP.
+100,Advantage,Caster has advantage on all rolls for 1 minute.
