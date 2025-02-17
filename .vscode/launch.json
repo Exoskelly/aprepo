@@ -6,6 +6,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "ExpirationDate",
+            "request": "launch",
+            "mainClass": "ExpirationDate",
+            "projectName": "aprepo_c05acc83"
+        },
+        {
+            "type": "java",
+            "name": "prog702q",
+            "request": "launch",
+            "mainClass": "prog702q",
+            "projectName": "aprepo_c05acc83"
+        },
+        {
+            "type": "java",
+            "name": "prog702p",
+            "request": "launch",
+            "mainClass": "prog702p",
+            "projectName": "aprepo_c05acc83"
+        },
+        {
+            "type": "java",
             "name": "prog492h",
             "request": "launch",
             "mainClass": "prog492h",
