@@ -6,6 +6,34 @@
     "configurations": [
         {
             "type": "java",
+            "name": "prog470a",
+            "request": "launch",
+            "mainClass": "prog470a",
+            "projectName": "aprepo_c05acc83"
+        },
+        {
+            "type": "java",
+            "name": "prog607a",
+            "request": "launch",
+            "mainClass": "prog607a",
+            "projectName": "aprepo_c05acc83"
+        },
+        {
+            "type": "java",
+            "name": "prog607a",
+            "request": "launch",
+            "mainClass": "prog607a.prog607a",
+            "projectName": "aprepo_c05acc83"
+        },
+        {
+            "type": "java",
+            "name": "Prog918a",
+            "request": "launch",
+            "mainClass": "Prog918a",
+            "projectName": "aprepo_c05acc83"
+        },
+        {
+            "type": "java",
             "name": "ExpirationDate",
             "request": "launch",
             "mainClass": "ExpirationDate",
