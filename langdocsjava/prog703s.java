@@ -4,14 +4,14 @@ import java.util.*;
 public class prog703s {
 public static void main(String[] args) throws IOException {
     ArrayList<Computer> computers = new ArrayList<>();
-    Scanner input = new Scanner(new File("Langdat/prog703.dat"));
-    String line;
-    while ((line = input.nextLine()) != null) {
-        String[] parts = line.split(","); 
-        int type = Integer.parseInt(parts[0]);
-        if (type == 1) { String name = parts[1]; 
-            int number = Integer.parseInt(parts[2]);
-            double value = Double.parseDouble(parts[3]);
+    Scanner input = new Scanner(new File("Langdat/prog703s.txt"));
+    String line;                                           
+    while ((line = input.nextLine()) != null) {        
+        String[] parts = line.split(",");                  
+        int type = Integer.parseInt(parts[0]);         
+        if (type == 1) { String name = parts[1];           
+            int number = Integer.parseInt(parts[2]);   
+            double value = Double.parseDouble(parts[3]);   
             String color = parts[4];
             computers.add(new Apple(name, number, value, color));
         } else if (type == 2) {
@@ -53,3 +53,6 @@ public static void main(String[] args) throws IOException {
     System.out.println("Number of Linux machines with a secret code ending in 5: " + lasex5);
 }
 }
+
+//catch (IOException e) {
+    //System.out.println("Can't find data file!");
