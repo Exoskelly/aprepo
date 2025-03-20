@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "prog901a",
+            "request": "launch",
+            "mainClass": "prog901a",
+            "projectName": "aprepo_c05acc83"
+        },
+        {
+            "type": "java",
             "name": "prog703s",
             "request": "launch",
             "mainClass": "prog703s",

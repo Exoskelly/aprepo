@@ -63,9 +63,9 @@ public class prog702q {
                     double tWorth = 50000 - (((truck)v).getMileage() * 0.25);
                     totCWorth += tWorth;
                     totTtires += ((truck)v).getTire();
-                    if (tWorth < tlstVal) {
-                        tlstVal = tWorth;
-                        tNamelstVal = ((truck)v).getName();
+                    if (tWorth < tLstVal) {
+                        tLstVal = tWorth;
+                        tNameLstVal = ((truck)v).getName();
                     }
                 } else if (v instanceof bus) {
                     totBtires += ((bus)v).getTire();
@@ -83,7 +83,7 @@ public class prog702q {
             System.out.println("Total amount of the cars' worth: $" + totCWorth);
             System.out.println("Total amount of the vehicles' worth: $" + totWorth);
             System.out.println("Longest home destination name: " + longestHTName);
-            System.out.println("truck with The least value: " + tNamelstVal + " ($" + tlstVal + ")");
+            System.out.println("truck with The least value: " + tNameLstVal + " ($" + tLstVal + ")");
             System.out.println("Total number of car tires: " + totCtires);
             System.out.println("Total number of truck tires: " + totTtires);
             System.out.println("Total number of bus tires: " + totBtires);
