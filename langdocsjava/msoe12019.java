@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class progmsoe12019 {
+public class msoe12019 {
     public static int numlnLine(String key1, String key2, String line) {
         int cnt = 0;
         for (int lcv = 0; lcv < line.length() + 1; lcv++)
