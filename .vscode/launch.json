@@ -6,6 +6,34 @@
     "configurations": [
         {
             "type": "java",
+            "name": "msoe2017_6",
+            "request": "launch",
+            "mainClass": "langdocscpp.msoe2017_6",
+            "projectName": "aprepo_c05acc83"
+        },
+        {
+            "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "langdocscpp.create.Main",
+            "projectName": "aprepo_c05acc83"
+        },
+        {
+            "type": "java",
+            "name": "roulette",
+            "request": "launch",
+            "mainClass": "langdocscpp.roulette",
+            "projectName": "aprepo_c05acc83"
+        },
+        {
+            "type": "java",
+            "name": "roulette",
+            "request": "launch",
+            "mainClass": "roulette",
+            "projectName": "aprepo_c05acc83"
+        },
+        {
+            "type": "java",
             "name": "RouletteGame",
             "request": "launch",
             "mainClass": "langdocscpp.RouletteGame",
