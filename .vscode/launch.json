@@ -6,6 +6,41 @@
     "configurations": [
         {
             "type": "java",
+            "name": "msoe20157",
+            "request": "launch",
+            "mainClass": "langdocscpp.msoe20157",
+            "projectName": "aprepo_c05acc83"
+        },
+        {
+            "type": "java",
+            "name": "msoe21087",
+            "request": "launch",
+            "mainClass": "langdocscpp.msoe21087",
+            "projectName": "aprepo_c05acc83"
+        },
+        {
+            "type": "java",
+            "name": "msoe20211",
+            "request": "launch",
+            "mainClass": "msoe20211",
+            "projectName": "aprepo_c05acc83"
+        },
+        {
+            "type": "java",
+            "name": "msoe12019",
+            "request": "launch",
+            "mainClass": "msoe12019",
+            "projectName": "aprepo_c05acc83"
+        },
+        {
+            "type": "java",
+            "name": "msoe20074",
+            "request": "launch",
+            "mainClass": "langdocscpp.msoe20074",
+            "projectName": "aprepo_c05acc83"
+        },
+        {
+            "type": "java",
             "name": "msoe2017_6",
             "request": "launch",
             "mainClass": "langdocscpp.msoe2017_6",

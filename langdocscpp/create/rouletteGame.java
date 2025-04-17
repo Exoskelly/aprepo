@@ -3,37 +3,47 @@ package langdocscpp.create;
 import java.util.*;
 
 public class rouletteGame {
-    public static void playRoulette() {
-        Scanner scanner = new Scanner(System.in);
-        List<String> wheel = rouletteLogic.getWheel();
-        int balance = 1000;
-        Random rand = new Random();
+    private final Scanner scanner = new Scanner(System.in);
+    private final List<String> wheel = rouletteLogic.getWheel(); 
+    private int balance = 1000;
+    private final Random rand = new Random();
 
-        while (balance > 0) {
+    public void play() { 
+        System.out.println("Welcome to the Roulette Game!");
+        
+        while (balance > 0) { 
             System.out.println("Your balance: $" + balance);
-            System.out.print("Enter bet amount (or type 0 to cash out): "); // instructions for output
-            int bet = scanner.nextInt(); //<-- input from user
+            System.out.print("Enter bet amount (or 0 to cash out): "); 
+            int bet = scanner.nextInt(); 
 
             if (bet == 0) {
                 System.out.println("You cashed out with $" + balance + ". Thanks for playing!");
                 return;
             }
 
-            if (bet > balance || bet < 0) {
-                System.out.println("Invalid bet. Try again.");
+            if (bet < 0 || bet > balance) {
+                System.out.println("Invalid bet. Try again."); 
                 continue;
             }
 
-            System.out.print("Bet on (Red/Black/Green): ");
-            String colorBet = scanner.next().toLowerCase();
+            System.out.print("Bet on a color (Red / Black / Green): ");
+            String colorBet = scanner.next().toLowerCase(); 
 
-            String result = wheel.get(rand.nextInt(wheel.size()));
+            if (!isValidColor(colorBet)) {
+                System.out.println("Invalid color. Try again.");
+                continue;
+            }
 
-            System.out.println("Wheel landed on: " + result);
+            String result = wheel.get(rand.nextInt(wheel.size())); 
+            System.out.println("Wheel landed on: " + result); 
 
-            balance = rouletteLogic.calculateOutcome(balance, bet, colorBet, result);
+            balance = rouletteLogic.calculateOutcome(balance, bet, colorBet, result); 
         }
 
         System.out.println("Game over! You ran out of money.");
+    }
+
+    private boolean isValidColor(String inputColor) { 
+        return inputColor.equals("red") || inputColor.equals("black") || inputColor.equals("green");
     }
 }
