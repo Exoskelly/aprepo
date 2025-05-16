@@ -1,5 +1,3 @@
-package langdocscpp;
-
 import java.util.*;
 
 public class msoe20075 {
@@ -8,7 +6,6 @@ public class msoe20075 {
 
         System.out.print("Enter a string: ");
         String input = scanner.nextLine().toUpperCase();
-
         int maxLen = 0;
         int currLen = 1;
         List<Character> maxChars = new ArrayList<>();
