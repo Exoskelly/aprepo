@@ -1,0 +1,36 @@
+########################################################################
+# Description:
+# Input an integer and check whether it is even or odd
+#
+# Arguments:
+#
+# Returns:
+########################################################################
+.data
+	prompt: .asciiz "Enter num: "
+	even: .asciiz "Num is even. "
+	odd: .asciiz "Num is odd. "
+.text
+main:
+	la $a0, prompt
+	li $v0, 4
+	syscall
+	li $v0, 5
+	syscall
+	move $t0, $v0
+	li $t2, 2
+	div $t0,$t2
+	mfhi $t1
+	beq $t1, $zero, isEqual
+	notEqual:
+	la $a0, odd
+	li $v0, 4
+	syscall
+	j exit
+	isEqual:
+	la $a0, even
+	li $v0, 4
+	syscall
+exit:
+	li $v0, 10
+	syscall
