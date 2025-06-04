@@ -1,0 +1,76 @@
+.data
+    prompt: .asciiz "Enter three integers: \n"
+    result: .asciiz "Sorted order: "
+
+.text
+    main:
+     # *** Prompt, Read Numbers, and Call Sort (Order 3)
+    li $v0, 4
+    la $a0, prompt
+    syscall
+    li $v0, 5
+    syscall
+    move $t0, $v0
+    move $s0, $v0
+    li $v0, 5
+    syscall
+    move $t1, $v0
+    li $v0, 5
+    syscall
+    la $a0, result
+    move $t2, $v0
+    move $a0, $t0
+    move $a1, $t1
+    move $a2, $t2
+    
+    move $a0, $s0 # <-- Wack ass dumbass code that i hate
+    jal order3
+	 # print results and move items to print
+    li $v0, 4
+    
+    la $a0, result
+    syscall
+    
+    li $v0, 1
+   
+    syscall
+
+    li $v0, 11 #Creates Spaces
+    li $a0, 32  
+    syscall
+
+    li $v0, 1 
+    move $a0, $a1
+    syscall
+
+    li $v0, 11 #Creates Spaces
+    li $a0, 32  
+    syscall
+
+    li $v0, 1
+    move $a0, $a2
+    syscall
+    
+exit:
+    li $v0, 10
+    syscall
+
+order3:
+    bgt $a0, $a1, exchange1
+    bgt $a1, $a2, exchange2
+    b next
+
+exchange1:
+    xor $a0, $a0, $a1
+    xor $a1, $a1, $a0
+    xor $a0, $a0, $a1
+    b order3
+
+exchange2:
+    xor $a1, $a1, $a2
+    xor $a2, $a2, $a1
+    xor $a1, $a1, $a2
+    b order3
+
+next:
+    jr $ra
